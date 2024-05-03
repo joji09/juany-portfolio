@@ -21,7 +21,7 @@ const Bar = props => (
 
 const Bars = ({ minSpeed, maxSpeed, color, extraHeight = 0, zIndex = 20 }) => {
     let barsTop = [];
-    let barsBot = [];
+    let barsBot = []
 
     let n = Math.floor(window.innerWidth / 25);
 
