@@ -14,8 +14,10 @@ const Bar = props => (
     className={`rellax flex flex-auto w-full z-0 bg-red-${props.c + "00"} ${(props.i === 0 || props.i === 1) ? 'mx-0' : '-mx-px'} rounded${props.loc ? "-" + props.loc : ""}-full`}
     style={{ 'height': `${props.h}%` }}
     data-rellax-speed={`${props.s}`}
-    data-rellax-xs-speed={`${props.s * 1}`}
+    data-rellax-xs-speed={`${props.s * 1.3}`}
     data-rellax-desktop-speed={`${props.s}`}
+    data-rellax-mobile-speed={`${props.s * 1.3}`}
+    data-rellax-tablet-speed={`${props.s}`}
     />
 )
 
@@ -91,6 +93,11 @@ const Landing = () => {
                             </svg>
                         </div>
                     </header>
+
+                    {/* <Bars minSpeed={4} maxSpeed={5} color={7} zIndex={0} />
+                    <Bars minSpeed={6} maxSpeed={8} color={6} />
+                    <Bars minSpeed={9} maxSpeed={11} color={5} />
+                    <Bars minSpeed={12} maxSpeed={14} color={4} extraHeight={2} /> */}
 
                     <Bars minSpeed={2} maxSpeed={3} color={7} zIndex={0} />
                     <Bars minSpeed={4} maxSpeed={6} color={6} />
