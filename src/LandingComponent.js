@@ -86,7 +86,7 @@ const Landing = () => {
                     <header className='absolute w-auto z-10'>
                         <div className="relative text-center object center content-center items-center p-4">
                             <span className="text-2x1 font-normal text-red-200">Hello, I'm<p className='text-4xl font-bold text-red-500'>Juany Santana</p></span>
-                            <h1 className='text-red-400 text-4xl font-sans font-extrabold'>Weclome to my portfolio</h1>
+                            <h1 className='text-red-400 text-4xl font-sans font-extrabold'>Welcome to my portfolio</h1>
                             <div className="relative mt-3"><span className='text-sm font-bold text-red-200 animate-pulse'>(keep scrolling)</span></div>
                             <svg className='animate-pulse relative h-5 w-full fill-current text-red-500' viewBox="0 0 16 16">
                             <path fillRule='evenodd' d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
